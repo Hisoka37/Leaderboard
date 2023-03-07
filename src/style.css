@@ -1,0 +1,48 @@
+h1 {
+  color: rgb(39, 38, 38);
+  margin: 5%;
+  font-size: 50px;
+}
+
+.board {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5% 10%;
+  gap: 50px;
+}
+
+.container {
+  width: 50%;
+}
+
+.recent-score {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(150, 150, 140);
+}
+
+.container1 {
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 20px;
+}
+
+#submitbtn {
+  width: 30%;
+  align-self: end;
+}
