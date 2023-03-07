@@ -31,7 +31,6 @@
 
 # 📖 [LeaderBoard] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **[LeaderBoard]** is a  solo programming project that highlights the use of Webpack to bundle JavaScript, ES6 syntax, API, callbacks and promise.
 
@@ -39,7 +38,8 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML5 and css3 which are the latest versions and JavaScript were used in this project.
+
+HTML5 and css3 which are the latest versions and JavaScript were used in this project.
 
 <details>
   <summary>Client</summary>
@@ -52,7 +52,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+
 
 -  leaderboard built with HTML CSS and javascript
 -  Dynamically loading with javascript.
@@ -64,17 +64,14 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link] Comming Soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -107,7 +104,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+
 
 👤 **Walid Kabboussa**
 
@@ -122,7 +119,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **add Score to the table. via API.**
 - [ ] **Implement some awesome animations and transitions or use React later**
@@ -130,7 +126,7 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
