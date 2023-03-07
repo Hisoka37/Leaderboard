@@ -1,91 +1,115 @@
-<a name="LeaderBoard"></a>
+<a name="readme-top"></a>
 <div align="center">
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-  <h3><b>LeaderBoard</b></h3>
+
+  <h3><b>Microverse README Template</b></h3>
+
 </div>
+
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 \[To_Do_List] \_To\_Do\_List]
-  - [🛠 Built With Html, css, javascript](#-built-with-html-css-javascript)
-    - [Tech Stack HTML5, CSS3 JAVASCRIPT](#tech-stack-html5-css3-javascript)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Author(s) ](#-authors-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [❓ FAQ ](#-faq-)
-  - [📝 License ](#-license-)
-  - [📝 License](#-license)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-# 📖 [LeaderBoard] <a name="LeaderBoard">LeaderBoard</a>
 
-A solo programming project that highlights the use of Webpack to bundle JavaScript, ES6 syntax, API, callbacks and promise
+# 📖 [LeaderBoard] <a name="about-project"></a>
 
-## 🛠 Built With <a name="built-with">Html, css, javascript</a>
+> Describe your project in 1 or 2 sentences.
 
-### Tech Stack <a name="tech-stack">HTML5, CSS3 JAVASCRIPT</a>
+**[LeaderBoard]** is a  solo programming project that highlights the use of Webpack to bundle JavaScript, ES6 syntax, API, callbacks and promise.
 
-HTML5 and css3 which are the latest versions and JavaScript were used in this project.
+## 🛠 Built With <a name="built-with"></a>
 
-<!-- Features -->
+### Tech Stack <a name="tech-stack"></a>
+
+> HTML5 and css3 which are the latest versions and JavaScript were used in this project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="">JavaScript(ES6)</a></li>
+    <li><a href="">Css</a></li>
+    <li><a href="">HTML</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
--  leaderboard built with HTML CSS and javascript 
+> Describe between 1-3 key features of the application.
+
+-  leaderboard built with HTML CSS and javascript
 -  Dynamically loading with javascript.
 -  Apply module bundler (Webpack).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+> Add a link to your deployed project.
+
+- [Live Demo Link] Comming Soon.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
- Get your pc.
- Clone this project to your local machine. 
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
-Basic knowledge of computers. To run this project you need to run (npm run serve ).
-
-### Setup
-
-Clone this repository to your desired folder:
-
-
 ### Install
 
-Install this project with cd to ToDoList.
+Install this project with:
+1. Installed Git.
+2. Create a local directory that you want to clone the repository.
+3. Open the command prompt in the created directory.
+4. On the terminal run this command git clone <https://github.com/Hisoka37/Leaderboard.git>
+5. Run ``` npm i --save-dev ```  to Install the dev dependencies
+### Usage
+
+To run the project, execute the following command:
+``` npm run build ```
 
 ### Run tests
 
 To run tests, run the following command:
-npm run serve  
-
+``` npm run test ```
 
 ### Deployment
 
-You can deploy this project using: GitHub pages.
+You can deploy this project using:
+``` npm run deploy ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author(s) <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
-> Walid Kabboussa
+> Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Walid Kabboussa**
 
 - GitHub: [@Hisoka37](https://github.com/Hisoka37)
 - Twitter: [@KBwalid9](https://twitter.com/KBwalid9)
@@ -94,38 +118,48 @@ You can deploy this project using: GitHub pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- **[future_feature_1]**  add Score to the table.
+<!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **add Score to the table. via API.**
+- [ ] **Implement some awesome animations and transitions or use React later**
+- [ ] **Integrate back-end.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+Feel free to open a Github issues.
 
-Feel free to check the [issues page](https://github.com/Hisoka37/To_Do_List).
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give a ⭐️.
+If you like this project kindly send to me an e-mail expressing it, it would make my day and fuel my motivation.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- ACKNOWLEDGEMENTS -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank  Microverse for the opportunity and motivation.
+I would like to thank Microverse team for this journey.
 
-<!-- FAQ (optional) -->
-
-
-
-
-
-<!-- LICENSE -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-## 📝 License
-
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
