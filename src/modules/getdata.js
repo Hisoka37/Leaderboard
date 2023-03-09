@@ -1,10 +1,10 @@
 export const getData = async () => {
   const request = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/yILAt9hHFpCy3D3LuPBP/scores/');
   const data = await request.json();
-  data.results.sort((a, b) => b.score - a.score);
+  data.result.sort((a, b) => b.score - a.score);
 
   const displayData = async (data) => {
-    data.results.forEach((elemenT) => {
+    data.result.forEach((elemenT) => {
       document.querySelector('.scores').innerHTML += `
          <p> ${elemenT.user} : ${elemenT.score}</p>
         `;
