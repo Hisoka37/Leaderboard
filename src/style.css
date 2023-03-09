@@ -22,7 +22,7 @@ h1 {
   justify-content: space-between;
 }
 
-ul {
+.scores {
   padding-left: 0;
   margin: 0;
   border: 1px solid black;
@@ -30,11 +30,11 @@ ul {
   list-style-type: none;
 }
 
-li {
+.scores p {
   height: 30px;
 }
 
-li:nth-child(even) {
+.scores p:nth-child(even) {
   background-color: rgb(150, 150, 140);
   height: 30px;
 }
