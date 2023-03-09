@@ -1,5 +1,4 @@
  
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -58,7 +57,7 @@ HTML5 and css3 which are the latest versions and JavaScript were used in this pr
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link] Comming Soon.
+- [Live Demo Link](https://hisoka37.github.io/Leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

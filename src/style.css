@@ -1,19 +1,44 @@
+@font-face {
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+body {
+  background-image: url(../src/assets/background.jpg);
+  font-family: 'Rocher';
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
-  color: rgb(39, 38, 38);
+  margin: 0;
   margin: 5%;
   font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-image: url(../src/assets/background1.jpg);
+  color: transparent;
+  background-position: center left;
 }
 
 .board {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   margin: 5% 10%;
-  gap: 50px;
+  gap: 100px;
 }
 
 .container {
-  width: 60%;
+  width: 50%;
+}
+
+h2 {
+  -webkit-background-clip: text;
+  background-image: url(../src/assets/background1.jpg);
+  color: transparent;
+  background-position: center left;
+  text-transform: uppercase;
 }
 
 .recent-score {
@@ -28,15 +53,23 @@ h1 {
   border: 1px solid black;
   width: 100%;
   list-style-type: none;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.scores::-webkit-scrollbar {
+  display: none;
 }
 
 .scores p {
-  height: 30px;
+  margin: 0;
+  padding: 1%;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .scores p:nth-child(even) {
-  background-color: rgb(150, 150, 140);
-  height: 30px;
+  background-color: #865dff;
 }
 
 .container1 {
@@ -46,11 +79,129 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 60%;
   gap: 20px;
 }
 
-#submitbtn {
+input {
+  font-size: 20px;
+  font-size: 16px;
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 5px solid var(--input-border);
+  border-radius: 4px;
+  transition: 180ms box-shadow ease-in-out;
+}
+
+input:focus {
+  box-shadow:
+    0 0 0 3px hsla(
+      var(--input-focus-h),
+      var(--input-focus-s),
+      calc(
+        var(--input-focus-l) +
+        40%
+      ),
+      0.8
+    );
+  outline: 3px solid transparent;
+}
+
+#submitBtn {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #e384ff;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0 3px 9px rgba(255, 255, 255, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -8px 36px rgba(0, 0, 0, 0.3), inset 0 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
   width: 40%;
-  align-self: end;
+}
+
+#refreshBtn {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #e384ff;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0 3px 9px rgba(255, 255, 255, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -8px 36px rgba(0, 0, 0, 0.3), inset 0 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .board {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin: 2%;
+    gap: 50px;
+    padding-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 40px;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  .scores {
+    width: 200%;
+    padding-bottom: 50px;
+  }
+
+  .recent-score {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+  }
+
+  .container1 {
+    align-self: center;
+    width: 50%;
+  }
+
+  h2 {
+    font-size: 13px;
+    padding-top: 30px;
+  }
+
+  form {
+    width: 60%;
+    justify-content: center;
+  }
+
+  input {
+    width: 200%;
+  }
+
+  #submitBtn {
+    width: 140%;
+    align-items: center;
+  }
+
+  #refreshBtn {
+    width: 140%;
+    align-items: center;
+  }
+
+  .recent-score h2 {
+    font-size: 20px;
+  }
 }
