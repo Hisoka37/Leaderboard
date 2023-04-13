@@ -21,10 +21,10 @@
 - [📝 License](#license)
 
 
-# 📖 [LeaderBoard] <a name="about-project"></a>
+# 📖 LeaderBoard <a name="about-project"></a>
 
 
-**[LeaderBoard]** is a  solo programming project that highlights the use of Webpack to bundle JavaScript, ES6 syntax, API, callbacks and promise.
+ Solo programming project that highlights the use of Webpack to bundle JavaScript, ES6 syntax, API, callbacks and promise.
 
 ## 🛠 Built With <a name="built-with"></a>
 
